@@ -1,0 +1,228 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Container */
+.container {
+  width: 400px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Input */
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #667eea;
+  outline: none;
+  box-shadow: 0 0 5px #667eea;
+}
+
+/* Buttons */
+.btn {
+  /* padding: 10px 20px; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Add */
+.add-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #45a049;
+}
+
+/* Update */
+.update-btn {
+  
+  background: #2196f3;
+  color: white;
+}
+
+.update-btn:hover {
+  background: #1976d2;
+}
+
+/* Edit */
+.edit-btn {
+  background: #ff9800;
+  color: white;
+  margin-right: 5px;
+}
+
+.edit-btn:hover {
+  background: #e68900;
+}
+
+/* Delete */
+.delete-btn {
+  background: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
+
+/* User List */
+.user-list ul {
+  list-style: none;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+}
+
+/* Empty Text */
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+
+/* Container */
+.user-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.user-title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Empty message */
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+/* List */
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Each user */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f6fb;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.list-item:hover {
+  background: #e8ecff;
+  transform: scale(1.02);
+}
+
+/* Text */
+.user-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Button group */
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+/* Edit */
+.edit-btn {
+  background: #ff9800;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #e68900;
+}
+
+/* Delete */
+.delete-btn {
+  background: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}
